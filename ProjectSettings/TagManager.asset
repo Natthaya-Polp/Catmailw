@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - House
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - SolidObject
   - 
   - 
   - 
@@ -50,8 +52,14 @@ TagManager:
   - name: Path
     uniqueID: 1649660151
     locked: 0
-  - name: Object
+  - name: Foreground
     uniqueID: 1820361163
+    locked: 0
+  - name: Sign
+    uniqueID: 1247854381
+    locked: 0
+  - name: sold
+    uniqueID: 1734855719
     locked: 0
   - name: Player
     uniqueID: 875246019
