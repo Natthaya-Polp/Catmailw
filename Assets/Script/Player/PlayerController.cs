@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
    private Animator animator;
 
    public LayerMask SolidObjectLayer;
+   
    private void Awake(){
         animator = GetComponent<Animator>();
    }
@@ -19,9 +20,6 @@ public class PlayerController : MonoBehaviour
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
         
-        Debug.Log("This is input : x" + input.x);
-        Debug.Log("This is input : y" + input.y);
-
         
 
         if(input.x != 0) input.y = 0;
@@ -62,4 +60,10 @@ public class PlayerController : MonoBehaviour
         }
         return true;
     }
+
+    //cant move when read the sign
+
+    // Add this method to your PlayerController script
+    
+
 }
