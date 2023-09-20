@@ -6,26 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class SecondHouse : MonoBehaviour
 {
-    public GameObject dialogBox;
-    public Text dialogText;
-    public string dialog;
+    public DialougeManagerTest dialougeManagerTest;
+   
     public bool playerInRange;
 
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
-            if (dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);
-            }
-            else
-            {
-                dialogBox.SetActive(false);
-                dialogText.text = dialog;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-            }
+            dialougeManagerTest.StartDialogue();
         }
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -40,7 +29,10 @@ public class SecondHouse : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            dialogBox.SetActive(false);
+            dialougeManagerTest.EndDialogue();
+            
         }
     }
+
+   
 }

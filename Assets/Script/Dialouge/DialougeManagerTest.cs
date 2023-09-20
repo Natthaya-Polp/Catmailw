@@ -57,7 +57,9 @@ public class DialougeManagerTest : MonoBehaviour
         dialogueText.gameObject.SetActive(false);
         dilogueBg.SetActive(false);
         dialogueActive = false;
+
     }
+
 
 
 

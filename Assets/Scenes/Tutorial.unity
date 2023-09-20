@@ -171,12 +171,16 @@ MonoBehaviour:
   dialogueText: {fileID: 1810763989}
   dilogueBg: {fileID: 85554706}
   dialogueLines:
-  - Hi
-  - Welcome
-  - 'You are here for help us ! '
-  - You are the postman and you have to send a mail
-  - I already prepare you test
-  - Pls press J for see more in fomation
+  - "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35 !"
+  - "\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E01\u0E33\u0E25\u0E31\u0E07\u0E23\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E25\u0E22"
+  - "\u0E04\u0E38\u0E13\u0E04\u0E37\u0E2D\u0E04\u0E19\u0E17\u0E35\u0E48\u0E08\u0E30\u0E21\u0E32\u0E0A\u0E48\u0E27\u0E22\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32
+    !"
+  - "\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E17\u0E35\u0E48\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E40\u0E01\u0E34\u0E14\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E02\u0E36\u0E49\u0E19"
+  - "\u0E08\u0E36\u0E07\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E2D\u0E2D\u0E01\u0E19\u0E2D\u0E01\u0E1A\u0E49\u0E32\u0E19\u0E44\u0E14\u0E49\u0E25\u0E48\u0E30TT"
+  - "\u0E15\u0E2D\u0E19\u0E17\u0E35\u0E48\u0E40\u0E18\u0E2D\u0E15\u0E01\u0E25\u0E07\u0E23\u0E31\u0E1A\u0E04\u0E33\u0E02\u0E2D "
+  - "\u0E40\u0E23\u0E32\u0E14\u0E35\u0E43\u0E08\u0E21\u0E32\u0E01\u0E40\u0E25\u0E22\u0E25\u0E48\u0E30!"
+  - "\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E01\u0E32\u0E23\u0E1D\u0E36\u0E01\u0E07\u0E32\u0E19\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E41\u0E25\u0E49\u0E27"
+  - "\u0E01\u0E14 \" J \" \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21"
 --- !u!61 &4251154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -303,7 +307,6 @@ Transform:
   - {fileID: 1902343716}
   - {fileID: 1546023019}
   - {fileID: 310400359}
-  - {fileID: 859635355}
   - {fileID: 1933469613}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -681,7 +684,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -693,7 +696,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How To Play
+  m_Text: "\u0E27\u0E34\u0E18\u0E35\u0E40\u0E25\u0E48\u0E19"
 --- !u!222 &175242965
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8427,9 +8430,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f2ba0bedab8aba3459c4f52736f35546, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.471
+  m_Volume: 0.057
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -11390,7 +11393,7 @@ GameObject:
   - component: {fileID: 499081601}
   - component: {fileID: 499081600}
   m_Layer: 5
-  m_Name: First
+  m_Name: Firsttxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11413,7 +11416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.4800415, y: -4.998333}
+  m_AnchoredPosition: {x: -12.4800415, y: 5.2}
   m_SizeDelta: {x: 245.5, y: 194.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &499081600
@@ -11437,7 +11440,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
@@ -11449,8 +11452,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MISSION 1\n\n\u0E2A\u0E34\u0E48\u0E07\u0E41\u0E23\u0E01\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E47\u0E19
-    \u0E04\u0E37\u0E2D\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07"
+  m_Text: "MISSION 1\n\n\u0E1A\u0E49\u0E32\u0E19\u0E2B\u0E25\u0E31\u0E07\u0E41\u0E23\u0E01\u0E02\u0E2D\u0E07\u0E2B\u0E21\u0E39\u0E48\u0E1A\u0E49\u0E32\u0E19"
 --- !u!222 &499081601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11753,7 +11755,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
@@ -11765,7 +11767,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try to Send Your First Mail
+  m_Text: 
 --- !u!222 &729124074
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14440,6 +14442,78 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &771422243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771422246}
+  - component: {fileID: 771422245}
+  - component: {fileID: 771422244}
+  m_Layer: 0
+  m_Name: NextLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &771422244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771422243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe3c24d63256c04ebbda6dbc2182e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+--- !u!61 &771422245
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771422243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.12917519, y: -0.35307884}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2583504, y: 1.7061577}
+  m_EdgeRadius: 0
+--- !u!4 &771422246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771422243}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.7699995, y: 11.775001, z: 0.21017909}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1980299380}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780580828
 GameObject:
   m_ObjectHideFlags: 0
@@ -14614,7 +14688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
@@ -14654,64 +14728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 174185478}
   dialogText: {fileID: 729124073}
-  dialog: First
-  playerInRange: 0
---- !u!1 &859635354 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-  m_PrefabInstance: {fileID: 2145162538}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &859635355 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-  m_PrefabInstance: {fileID: 2145162538}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &859635356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859635354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc63b21347bebc343b435fa6023b1b34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialougeManagerTest: {fileID: 859635357}
---- !u!114 &859635357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859635354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65fd5b360565e3243b4559d01bc7b80c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1810763989}
-  dilogueBg: {fileID: 85554706}
-  dialogueLines:
-  - Are you Ready for the Next Level?
-  - If you are ready , Press E and we'll see you agian
-  - Thank for help !
---- !u!114 &859635358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859635354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8ccb1bba1d992746b7a88bac1e605f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogBox: {fileID: 174185478}
-  dialogText: {fileID: 729124073}
-  dialog: 
+  dialog: "\u0E1A\u0E49\u0E32\u0E19\u0E2B\u0E25\u0E31\u0E07\u0E41\u0E23\u0E01\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08
+    !"
   playerInRange: 0
 --- !u!1001 &943106302
 PrefabInstance:
@@ -14788,18 +14806,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialog
-      value: Congratulations! Your first mail is suscess !
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 174185478}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogText
-      value: 
-      objectReference: {fileID: 729124073}
     - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Name
       value: House1
@@ -14833,7 +14839,7 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
 --- !u!1 &1026163394
 GameObject:
@@ -16040,6 +16046,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1076347243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
+  m_PrefabInstance: {fileID: 1722021293}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1188444145
 GameObject:
   m_ObjectHideFlags: 0
@@ -16052,7 +16063,7 @@ GameObject:
   - component: {fileID: 1188444148}
   - component: {fileID: 1188444147}
   m_Layer: 5
-  m_Name: Second
+  m_Name: Secondtxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16075,8 +16086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.105377, y: -2.7833853}
-  m_SizeDelta: {x: 245.5, y: 194.2}
+  m_AnchoredPosition: {x: 14.105377, y: -5.4}
+  m_SizeDelta: {x: 246.2, y: 233.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188444147
 MonoBehaviour:
@@ -16099,7 +16110,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
@@ -16111,7 +16122,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MISSION 2\n\n\u0E2D\u0E22\u0E39\u0E48\u0E44\u0E01\u0E25\u0E08\u0E19\u0E2A\u0E38\u0E14\u0E2A\u0E32\u0E22\u0E15\u0E32"
+  m_Text: "MISSION 2\n\n\u0E40\u0E08\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E1A\u0E49\u0E32\u0E19\u0E2B\u0E25\u0E31\u0E07\u0E19\u0E35\u0E49\u0E44\u0E21\u0E48\u0E04\u0E48\u0E2D\u0E22\u0E0A\u0E2D\u0E1A\u0E17\u0E35\u0E48\u0E46\u0E27\u0E38\u0E48\u0E19\u0E27\u0E32\u0E22\u0E2A\u0E31\u0E01\u0E40\u0E17\u0E48\u0E32\u0E44\u0E2B\u0E23\u0E48
+    \u0E2B\u0E32\u0E01\u0E40\u0E18\u0E2D\u0E2D\u0E22\u0E32\u0E01\u0E08\u0E30\u0E44\u0E1B\u0E2A\u0E48\u0E07\u0E02\u0E2D\u0E07
+    \u0E01\u0E47\u0E25\u0E2D\u0E07\u0E14\u0E39\u0E43\u0E19\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E19\u0E48\u0E32\u0E21\u0E35\u0E41\u0E21\u0E27\u0E44\u0E1B\u0E2D\u0E32\u0E28\u0E31\u0E22\u0E2D\u0E22\u0E39\u0E48\u0E14\u0E39\u0E19\u0E30
+    !"
 --- !u!222 &1188444148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16890,11 +16904,11 @@ RectTransform:
   m_Children:
   - {fileID: 571326350}
   - {fileID: 175242963}
-  - {fileID: 1437539718}
   - {fileID: 2089486140}
   - {fileID: 2039265482}
   - {fileID: 1660971540}
   - {fileID: 1484782529}
+  - {fileID: 1437539718}
   m_Father: {fileID: 780580832}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17304,7 +17318,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1307368593}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17332,7 +17346,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
@@ -17344,7 +17358,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press J - To view tutorial menu agian.
+  m_Text: "\u0E01\u0E14 J - \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E25\u0E31\u0E1A\u0E21\u0E32\u0E14\u0E39\u0E17\u0E35\u0E48\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07"
 --- !u!222 &1437539720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17384,11 +17398,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1307368593}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -96}
+  m_AnchoredPosition: {x: 0, y: -128.2}
   m_SizeDelta: {x: 340.6, y: 31.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1484782530
@@ -17404,7 +17418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.19607845, g: 0.19607845, b: 0.19607845, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17412,7 +17426,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
@@ -17424,7 +17438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press E - To interact !
+  m_Text: "\u0E01\u0E14 E - \u0E2B\u0E32\u0E01\u0E40\u0E18\u0E2D\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E08\u0E30\u0E42\u0E15\u0E49\u0E15\u0E2D\u0E1A\u0E01\u0E31\u0E1A\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32"
 --- !u!222 &1484782531
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19524,6 +19538,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
   m_PrefabInstance: {fileID: 1722021293}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1546023023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076347243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44df5ffe931d8d043948a874c77f1b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogBox: {fileID: 174185478}
+  dialogText: {fileID: 729124073}
+  dialog: "\u0E40\u0E18\u0E2D\u0E40\u0E1B\u0E47\u0E19\u0E43\u0E04\u0E23\u0E40\u0E19\u0E35\u0E48\u0E22
+    !!"
+  playerInRange: 0
 --- !u!1 &1558982364
 GameObject:
   m_ObjectHideFlags: 0
@@ -19799,18 +19830,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialog
-      value: J..P Press "J" for tutoriols!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 174185478}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogText
-      value: 
-      objectReference: {fileID: 729124073}
     - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -19822,6 +19841,14 @@ PrefabInstance:
     - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
@@ -19856,11 +19883,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1307368593}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -125}
+  m_AnchoredPosition: {x: 0, y: -56.7}
   m_SizeDelta: {x: 340.6, y: 31.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660971541
@@ -19876,7 +19903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.2264151, g: 0.14714703, b: 0.048059814, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19884,19 +19911,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Q - To seedestinations!
+  m_Text: "\u0E01\u0E14 Q - \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E02\u0E2D\u0E07\u0E1E\u0E31\u0E2A\u0E14\u0E38\u0E17\u0E35\u0E48\u0E40\u0E18\u0E2D\u0E08\u0E30\u0E15\u0E49\u0E2D\u0E07\u0E2A\u0E48\u0E07"
 --- !u!222 &1660971542
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19980,18 +20007,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialog
-      value: Yeah ! You are all done !
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 174185478}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogText
-      value: 
-      objectReference: {fileID: 729124073}
     - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Name
       value: House2
@@ -20006,15 +20021,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Size.y
-      value: 5.1802273
+      value: 7.1173353
       objectReference: {fileID: 0}
     - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Offset.x
-      value: 0.134534
+      value: 0.13453388
       objectReference: {fileID: 0}
     - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Offset.y
-      value: -1.0775266
+      value: -2.0460806
       objectReference: {fileID: 0}
     - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -20024,8 +20039,7 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
 --- !u!1 &1702790848
 GameObject:
@@ -20198,18 +20212,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialog
-      value: You are the wrong House!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 174185478}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogText
-      value: 
-      objectReference: {fileID: 729124073}
     - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Name
       value: House3
@@ -20283,8 +20285,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
-    m_FontSize: 8
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -20313,7 +20315,7 @@ RectTransform:
   m_GameObject: {fileID: 1810763988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.59541094, y: 2.1709712, z: 2.1709712}
+  m_LocalScale: {x: 0.32697567, y: 1.9418567, z: 1.8063782}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 85554707}
@@ -20321,8 +20323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8078527, y: 2}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 1.3, y: 2}
+  m_SizeDelta: {x: 286.4, y: 28.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1845435888
 GameObject:
@@ -20445,7 +20447,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
   m_PrefabInstance: {fileID: 1675831653}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1902343720
+--- !u!114 &1902343723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714831746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fd5b360565e3243b4559d01bc7b80c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1810763989}
+  dilogueBg: {fileID: 85554706}
+  dialogueLines:
+  - "\u0E22\u0E34\u0E19\u0E14\u0E35\u0E14\u0E49\u0E27\u0E22\u0E17\u0E33\u0E40\u0E04\u0E27\u0E2A\u0E2A\u0E38\u0E14\u0E17\u0E49\u0E32\u0E22\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E41\u0E25\u0E49\u0E27"
+  - "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E14\u0E48\u0E32\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E21\u0E31\u0E49\u0E22"
+  - "\u0E2B\u0E32\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23 \u0E01\u0E14 \"F\"
+    \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E14\u0E48\u0E32\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B"
+  - "\u0E41\u0E25\u0E49\u0E27\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E19\u0E30"
+--- !u!114 &1902343724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20457,9 +20479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ccb1bba1d992746b7a88bac1e605f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogBox: {fileID: 174185478}
-  dialogText: {fileID: 729124073}
-  dialog: Finish Tutorials !
+  dialougeManagerTest: {fileID: 1902343723}
   playerInRange: 0
 --- !u!1 &1928098515
 GameObject:
@@ -20575,7 +20595,7 @@ Transform:
   - {fileID: 1247737467}
   - {fileID: 1335733157}
   m_Father: {fileID: 47887213}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936279482
 GameObject:
@@ -20685,6 +20705,7 @@ Transform:
   - {fileID: 2001471609}
   - {fileID: 1885976886}
   - {fileID: 1360524324}
+  - {fileID: 771422246}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20885,11 +20906,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1307368593}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.961487, y: -36}
+  m_AnchoredPosition: {x: 11.961487, y: -15.3}
   m_SizeDelta: {x: 288.26, y: 85.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039265483
@@ -20913,20 +20934,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: On the right of your page will have clue for your destination. Follow them
-    and delivery your mail.
+  m_Text: "\u0E41\u0E15\u0E48\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E2A\u0E31\u0E0D\u0E0D\u0E32\u0E13
+    GPS\u0E40\u0E2A\u0E35\u0E22 \u0E40\u0E23\u0E32\u0E08\u0E36\u0E07\u0E15\u0E49\u0E2D\u0E07\u0E2D\u0E32\u0E28\u0E31\u0E22\u0E01\u0E32\u0E23\u0E2D\u0E48\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E08\u0E32\u0E01\u0E04\u0E33\u0E1A\u0E2D\u0E01\u0E40\u0E25\u0E48\u0E32\u0E02\u0E2D\u0E07\u0E40\u0E08\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E1A\u0E49\u0E32\u0E19\u0E44\u0E1B\u0E01\u0E48\u0E2D\u0E19 "
 --- !u!222 &2039265484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21042,12 +21063,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1307368593}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 11.961487, y: 69}
-  m_SizeDelta: {x: 288.26, y: 85.94}
+  m_SizeDelta: {x: 317.59, y: 85.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089486141
 MonoBehaviour:
@@ -21070,20 +21091,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71cd9423cce34de4f8d7bd262544cb47, type: 3}
+    m_Font: {fileID: 12800000, guid: 749a74e768967194e99f0eef1f670281, type: 3}
     m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Your mission is send the mail to the correct house. You khow people look
-    forward to get their goods. So don't make them dissapoint, we thrust you !!
+  m_Text: "\u0E40\u0E23\u0E32\u0E08\u0E30\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E01\u0E32\u0E23\u0E2A\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E04\u0E19\u0E43\u0E19\u0E2B\u0E21\u0E39\u0E48\u0E1A\u0E49\u0E32\u0E19
+    \u0E17\u0E38\u0E01\u0E04\u0E19\u0E01\u0E33\u0E25\u0E31\u0E07\u0E15\u0E31\u0E49\u0E07\u0E15\u0E32\u0E23\u0E2D\u0E01\u0E31\u0E1A\u0E1E\u0E31\u0E2A\u0E14\u0E38\u0E17\u0E35\u0E48\u0E40\u0E02\u0E32\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E19\u0E30!
+    \u0E40\u0E1E\u0E23\u0E32\u0E30\u0E1E\u0E31\u0E2A\u0E14\u0E38\u0E17\u0E38\u0E01\u0E0A\u0E34\u0E49\u0E19
+    \u0E21\u0E35\u0E21\u0E39\u0E25\u0E04\u0E48\u0E32\u0E17\u0E32\u0E07\u0E43\u0E08\u0E22\u0E31\u0E07\u0E44\u0E07\u0E25\u0E48\u0E30!  "
 --- !u!222 &2089486142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21092,96 +21115,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089486139}
   m_CullTransparentMesh: 1
---- !u!1001 &2145162538
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 47887213}
-    m_Modifications:
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.15942337
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialog
-      value: Haha
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 174185478}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogText
-      value: 
-      objectReference: {fileID: 729124073}
-    - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_Name
-      value: Next
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_Size.x
-      value: 0.5115526
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_Size.y
-      value: 0.23077981
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.04915628
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020127, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.015390061
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
 --- !u!1001 &3416319156843248328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21233,18 +21166,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialog
-      value: Haha
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 174185478}
-    - target: {fileID: 3416319157986020114, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
-      propertyPath: dialogText
-      value: 
-      objectReference: {fileID: 729124073}
     - target: {fileID: 3416319157986020125, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
       propertyPath: m_Name
       value: Sign
