@@ -14,6 +14,7 @@ public class ObjectInteraction : MonoBehaviour
         {
             dialougeManagerTest.StartDialogue();
             hasEnteredCollider = true;
+
         }
         else
         {
