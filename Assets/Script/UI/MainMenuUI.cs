@@ -16,7 +16,7 @@ public class MainMenuUI : MonoBehaviour
     }
     public void Quit()
     {
-        Application.Quit(); //Quits the game (only works in build)
+        Application.Quit(); 
     }
 
 }

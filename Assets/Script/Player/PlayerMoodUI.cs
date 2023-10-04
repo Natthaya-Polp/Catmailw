@@ -16,7 +16,7 @@ public class PlayerMoodUI : MonoBehaviour
 
     private void Start()
     {
-        currentPoint = moodPoint;
+        
         UpdateMoodUi();
     }
     public void Update()

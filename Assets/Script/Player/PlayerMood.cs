@@ -16,7 +16,7 @@ public class PlayerMood : MonoBehaviour
     
     void Start()
     {
-        currentMood = startingPoint;
+        
         UpdateMoodDisplay();
     }
 

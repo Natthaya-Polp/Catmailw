@@ -41,9 +41,11 @@ public class CorrectHouse : MonoBehaviour
         if (currentPoint >= 5)
         {
             happy.SetActive(true);
+            angry.SetActive(false);
         }
-        else if (currentPoint >= 3 && currentPoint < 5)
+        else if (currentPoint <= 3)
         {
+            happy.SetActive(false);
             angry.SetActive(true);
         }
         else if (currentPoint < 2)
