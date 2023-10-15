@@ -60,9 +60,9 @@ TagManager:
   - name: Sign
     uniqueID: 1247854381
     locked: 0
-  - name: sold
-    uniqueID: 1734855719
-    locked: 0
   - name: Player
     uniqueID: 875246019
+    locked: 0
+  - name: sold
+    uniqueID: 1734855719
     locked: 0
