@@ -7,6 +7,8 @@ public class CorrectHouse : MonoBehaviour
     [SerializeField] GameObject happy;
     [SerializeField] GameObject angry;
     [SerializeField] GameObject Gameover;
+    [SerializeField] GameObject ButtonUI;
+    
 
     public bool isCorrect;
     public bool playerInRange;
@@ -17,17 +19,22 @@ public class CorrectHouse : MonoBehaviour
 
     private void Start()
     {
+        
+  
         currentPoint = moodPoint;
         UpdateMoodUi();
+        ButtonUI.SetActive(false);
     }
     public void Update()
     {
         if (playerInRange && isCorrect && Input.GetKeyDown(KeyCode.E) && !hasEnteredCollider)
         {
+            ButtonUI.SetActive(false);
             currentPoint++;
             Debug.Log(currentPoint);
             UpdateMoodUi();
             hasEnteredCollider = true;
+
 
         }
         else
@@ -35,6 +42,7 @@ public class CorrectHouse : MonoBehaviour
 
         }
     }
+
 
     void UpdateMoodUi()
     {
@@ -60,6 +68,7 @@ public class CorrectHouse : MonoBehaviour
         {
             isCorrect = true;
             playerInRange = true;
+            ButtonUI.SetActive(true);
 
         }
         else
@@ -71,5 +80,6 @@ public class CorrectHouse : MonoBehaviour
     public void OnTriggerExit2D(Collider2D other)
     {
         playerInRange = false;
+        ButtonUI.SetActive(false);
     }
 }

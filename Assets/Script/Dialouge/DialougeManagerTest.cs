@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class DialougeManagerTest : MonoBehaviour
 {
@@ -11,12 +12,15 @@ public class DialougeManagerTest : MonoBehaviour
     private int currentLine = 0;
     private bool dialogueActive = false;
 
+    public GameObject FinishUI;
+
 
 
     void Start()
     {
         dialogueText.gameObject.SetActive(false);
         dilogueBg.SetActive(false);
+        FinishUI.SetActive(false);
     }
 
     void Update()
@@ -49,6 +53,8 @@ public class DialougeManagerTest : MonoBehaviour
         else
         {
             EndDialogue();
+            StartCoroutine(ShowUI3Second());
+            
         }
     }
 
@@ -58,7 +64,20 @@ public class DialougeManagerTest : MonoBehaviour
         dilogueBg.SetActive(false);
         dialogueActive = false;
 
+        
+
     }
+
+    IEnumerator ShowUI3Second()
+    {
+        FinishUI.SetActive(true);
+
+        yield return new WaitForSeconds(2);
+
+        FinishUI.SetActive(false);
+    }
+
+ 
 
 
 
