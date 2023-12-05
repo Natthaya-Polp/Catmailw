@@ -184,6 +184,7 @@ MonoBehaviour:
   - "\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E01\u0E32\u0E23\u0E1D\u0E36\u0E01\u0E07\u0E32\u0E19\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E41\u0E25\u0E49\u0E27"
   - "\u0E25\u0E2D\u0E07\u0E01\u0E14 \" J \" \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21\u0E14\u0E39\u0E19\u0E30"
   FinishUI: {fileID: 574370118}
+  playerMovement: {fileID: 1192720588}
 --- !u!61 &4251154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64430,6 +64431,7 @@ MonoBehaviour:
     \u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E40\u0E02\u0E49\u0E32\u0E25\u0E48\u0E30
     !"
   FinishUI: {fileID: 1044260708}
+  playerMovement: {fileID: 1192720588}
 --- !u!114 &858686697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66092,6 +66094,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1297382647163426923, guid: 957ea036a1e945e4498b87ad8dafa741, type: 3}
   m_PrefabInstance: {fileID: 1297382646040092834}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1192720588 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297382647163426930, guid: 957ea036a1e945e4498b87ad8dafa741, type: 3}
+  m_PrefabInstance: {fileID: 1297382646040092834}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3b1804152fb19448eaf41935d6576e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1198925340
 GameObject:
   m_ObjectHideFlags: 0
@@ -71120,7 +71133,8 @@ MonoBehaviour:
     !"
   - "[ \u0E01\u0E14 F \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E15\u0E48\u0E2D
     ]"
-  FinishUI: {fileID: 574370118}
+  FinishUI: {fileID: 1044260708}
+  playerMovement: {fileID: 1192720588}
 --- !u!114 &1902343727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71917,11 +71931,11 @@ PrefabInstance:
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
-      objectReference: {fileID: 574370118}
+      objectReference: {fileID: 53252174}
     - target: {fileID: 1546023028, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: FinishUI
       value: 
-      objectReference: {fileID: 574370118}
+      objectReference: {fileID: 1044260708}
     - target: {fileID: 1546023028, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: dilogueBg
       value: 
@@ -71930,6 +71944,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1810763989}
+    - target: {fileID: 1546023028, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1192720588}
     - target: {fileID: 1546023028, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 2

@@ -20,7 +20,7 @@ public class CorrectHouse : MonoBehaviour
     private void Start()
     {
         
-  
+        //เกี่ยวกับค่าแต้มอารมณ์
         currentPoint = moodPoint;
         UpdateMoodUi();
         ButtonUI.SetActive(false);

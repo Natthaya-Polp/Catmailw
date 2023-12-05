@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjectInteraction : MonoBehaviour
 {
+    //scriptàÃ×èÍ§uiµÍ¹Êè§¢Í§
     public DialougeManagerTest dialougeManagerTest;
     public bool playerInRange;
     public bool hasEnteredCollider = false;
