@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialougeManagerTest: {fileID: 4251153}
+  walkTutorialsBanner: {fileID: 421866065}
 --- !u!114 &4251153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +176,7 @@ MonoBehaviour:
   - "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E2A\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E1A\u0E49\u0E32\u0E19\u0E2B\u0E25\u0E31\u0E07\u0E41\u0E23\u0E01\u0E01\u0E48\u0E2D\u0E19\u0E19\u0E30
     !"
   FinishUI: {fileID: 421866065}
+  playerMovement: {fileID: 1434253935}
 --- !u!61 &4251154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -72473,7 +72475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &496314621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -102649,6 +102651,7 @@ MonoBehaviour:
   - "\u0E09\u0E31\u0E19\u0E15\u0E31\u0E49\u0E07\u0E15\u0E32\u0E23\u0E2D\u0E02\u0E2D\u0E07\u0E0A\u0E34\u0E49\u0E19\u0E19\u0E35\u0E49\u0E21\u0E32\u0E01\u0E46
     \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E19\u0E30 !"
   FinishUI: {fileID: 1143690788}
+  playerMovement: {fileID: 0}
 --- !u!114 &858686697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102831,6 +102834,7 @@ MonoBehaviour:
   - "\u0E02\u0E2D\u0E1A\u0E43\u0E08\u0E19\u0E30 \u0E02\u0E2D\u0E43\u0E2B\u0E49\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E14\u0E35\u0E19\u0E30
     !"
   FinishUI: {fileID: 421866065}
+  playerMovement: {fileID: 0}
 --- !u!1001 &943106302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107937,6 +107941,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1434253935 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297382647163426930, guid: 957ea036a1e945e4498b87ad8dafa741, type: 3}
+  m_PrefabInstance: {fileID: 1764807910}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3b1804152fb19448eaf41935d6576e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1437539717
 GameObject:
   m_ObjectHideFlags: 0
@@ -113764,6 +113779,99 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1523255379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1523255383}
+  - component: {fileID: 1523255382}
+  - component: {fileID: 1523255381}
+  - component: {fileID: 1523255380}
+  m_Layer: 0
+  m_Name: StartScence
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1523255380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523255379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc63b21347bebc343b435fa6023b1b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialougeManagerTest: {fileID: 1523255381}
+  walkTutorialsBanner: {fileID: 421866065}
+--- !u!114 &1523255381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523255379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fd5b360565e3243b4559d01bc7b80c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1810763989}
+  dilogueBg: {fileID: 85554706}
+  dialogueLines:
+  - "\u0E40\u0E2D\u0E32\u0E25\u0E48\u0E30\u0E44\u0E14\u0E49\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48\u0E19\u0E32\u0E22\u0E08\u0E30\u0E15\u0E49\u0E2D\u0E07\u0E25\u0E2D\u0E07\u0E2A\u0E48\u0E07\u0E14\u0E49\u0E27\u0E22\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07\u0E41\u0E25\u0E49\u0E27\u0E19\u0E30"
+  - "\u0E02\u0E2D\u0E43\u0E2B\u0E49\u0E42\u0E0A\u0E04\u0E14\u0E35 \u0E17\u0E38\u0E01\u0E04\u0E19\u0E23\u0E2D\u0E1E\u0E31\u0E2A\u0E14\u0E38\u0E08\u0E32\u0E01\u0E19\u0E32\u0E22\u0E2D\u0E22\u0E39\u0E48\u0E19\u0E30"
+  FinishUI: {fileID: 421866065}
+  playerMovement: {fileID: 1434253935}
+--- !u!61 &1523255382
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523255379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13905129, y: 0.055973485}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.27, y: 0.17}
+    newSize: {x: 0.27, y: 0.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54810274, y: 0.19101796}
+  m_EdgeRadius: 0
+--- !u!4 &1523255383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523255379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.48, y: 12.65, z: -0.101255566}
+  m_LocalScale: {x: 5.4636, y: 5.4636, z: 5.4636}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1546023019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3416319157986020113, guid: ffc1654286d93284fa46e728556d59c6, type: 3}
@@ -113824,6 +113932,7 @@ MonoBehaviour:
   - "\u0E19\u0E32\u0E22\u0E21\u0E32\u0E1C\u0E34\u0E14\u0E1A\u0E49\u0E32\u0E19\u0E41\u0E25\u0E49\u0E27
     !"
   FinishUI: {fileID: 0}
+  playerMovement: {fileID: 0}
 --- !u!1 &1553437240
 GameObject:
   m_ObjectHideFlags: 0
@@ -115812,6 +115921,7 @@ MonoBehaviour:
     \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E14\u0E48\u0E32\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B"
   - "\u0E41\u0E25\u0E49\u0E27\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E19\u0E30"
   FinishUI: {fileID: 0}
+  playerMovement: {fileID: 0}
 --- !u!114 &1902343727
 MonoBehaviour:
   m_ObjectHideFlags: 0
