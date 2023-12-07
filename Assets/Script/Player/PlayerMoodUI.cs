@@ -14,10 +14,14 @@ public class PlayerMoodUI : MonoBehaviour
     public int moodPoint = 5;
     public int currentPoint;
 
+
+    //ไม่ได้ใช้
     private void Start()
     {
         
         UpdateMoodUi();
+
+
     }
     public void Update()
     {
@@ -74,5 +78,11 @@ public class PlayerMoodUI : MonoBehaviour
     }
 
 
+    //เช็คว่าใช้กัยobjectไหน
+    //GameObject myGameObject = gameObject;
 
+    // You can also access the name of the GameObject
+    //string objectName = myGameObject.name;
+
+    //Debug.Log("This script is attached to: " + objectName);
 }

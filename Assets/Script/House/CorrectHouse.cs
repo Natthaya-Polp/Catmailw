@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CorrectHouse : MonoBehaviour
@@ -8,55 +6,45 @@ public class CorrectHouse : MonoBehaviour
     [SerializeField] GameObject angry;
     [SerializeField] GameObject Gameover;
     [SerializeField] GameObject ButtonUI;
-    
 
     public bool isCorrect;
     public bool playerInRange;
     public bool hasEnteredCollider = false;
 
-    public int moodPoint = 5;
-    public int currentPoint;
+    public MoodData moodData; // Reference to MoodData
 
     private void Start()
     {
-        
-        //เกี่ยวกับค่าแต้มอารมณ์
-        currentPoint = moodPoint;
+        //moodData.ResetMood(); // Reset the mood data
         UpdateMoodUi();
         ButtonUI.SetActive(false);
     }
+
     public void Update()
     {
         if (playerInRange && isCorrect && Input.GetKeyDown(KeyCode.E) && !hasEnteredCollider)
         {
             ButtonUI.SetActive(false);
-            currentPoint++;
-            Debug.Log(currentPoint);
+            GameManager.instance.moodData.CurrentMoodPoints++;
+            Debug.Log("Current Mood Points: " + GameManager.instance.moodData.CurrentMoodPoints);
             UpdateMoodUi();
             hasEnteredCollider = true;
-
-
-        }
-        else
-        {
-
         }
     }
 
-
     void UpdateMoodUi()
     {
-        if (currentPoint >= 5)
+        if (moodData.CurrentMoodPoints >= moodData.maxMoodPoints)
         {
             happy.SetActive(true);
             angry.SetActive(false);
         }
-        else if (currentPoint <= 3)
+        else if (moodData.CurrentMoodPoints <= moodData.minMoodPoints + 1)
         {
             happy.SetActive(false);
             angry.SetActive(true);
         }
-        else if (currentPoint < 2)
+        else if (moodData.CurrentMoodPoints < moodData.minMoodPoints)
         {
             Gameover.SetActive(true);
         }
@@ -69,11 +57,6 @@ public class CorrectHouse : MonoBehaviour
             isCorrect = true;
             playerInRange = true;
             ButtonUI.SetActive(true);
-
-        }
-        else
-        {
-
         }
     }
 

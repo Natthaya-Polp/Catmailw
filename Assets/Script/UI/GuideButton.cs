@@ -52,6 +52,5 @@ public class GuideButton : MonoBehaviour
         {
             OButton.SetActive(false);
         }
-
     }
 }
