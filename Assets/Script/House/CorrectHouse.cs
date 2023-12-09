@@ -15,13 +15,13 @@ public class CorrectHouse : MonoBehaviour
 
     private void Start()
     {
-<<<<<<< HEAD
+// HEAD
         //moodData.ResetMood(); // Reset the mood data
-=======
+
         
         //เกี่ยวกับค่าแต้มอารมณ์
-        currentPoint = moodPoint;
->>>>>>> map3
+       //urrentPoint = moodPoint;
+//
         UpdateMoodUi();
         ButtonUI.SetActive(false);
     }
