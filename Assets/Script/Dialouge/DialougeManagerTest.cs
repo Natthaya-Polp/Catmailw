@@ -6,6 +6,8 @@ using System;
 
 public class DialougeManagerTest : MonoBehaviour
 {
+
+    //à¡ÕèÂÇ¡Ñºdialouge
     public Text dialogueText;
     public GameObject dilogueBg;
     public string[] dialogueLines; // An array to hold your dialogue lines.
@@ -14,13 +16,23 @@ public class DialougeManagerTest : MonoBehaviour
 
     public GameObject FinishUI;
 
-
+    public PlayerMovement playerMovement;
 
     void Start()
     {
         dialogueText.gameObject.SetActive(false);
         dilogueBg.SetActive(false);
         FinishUI.SetActive(false);
+
+        playerMovement = FindObjectOfType<PlayerMovement>();
+        if(playerMovement == null)
+        {
+            Debug.LogError("cannot found");
+        }
+        else
+        {
+            playerMovement.enabled = true;
+        }
     }
 
     void Update()
@@ -40,6 +52,7 @@ public class DialougeManagerTest : MonoBehaviour
         dialogueActive = true;
         dialogueText.gameObject.SetActive(true);
         dilogueBg.SetActive(true);
+        playerMovement.enabled = false;
         NextLine();
     }
 
@@ -54,7 +67,7 @@ public class DialougeManagerTest : MonoBehaviour
         {
             EndDialogue();
             StartCoroutine(ShowUI3Second());
-            
+
         }
     }
 
@@ -64,7 +77,8 @@ public class DialougeManagerTest : MonoBehaviour
         dilogueBg.SetActive(false);
         dialogueActive = false;
 
-        
+        playerMovement.enabled = true;
+
 
     }
 
@@ -75,9 +89,10 @@ public class DialougeManagerTest : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         FinishUI.SetActive(false);
+        playerMovement.enabled=true;
     }
 
- 
+
 
 
 

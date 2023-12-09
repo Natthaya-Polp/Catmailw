@@ -10,16 +10,16 @@ public class StartTutorial : MonoBehaviour
     private void Start()
     {
         // Show the UI panel when the game starts
-        uiPanel.SetActive(true);
+        //uiPanel.SetActive(true);
 
         // Call a method to hide the UI panel after 3 seconds
-        Invoke("HideUI", 2f);
+        //Invoke("HideUI", 2f);
     }
 
     private void HideUI()
     {
         // Hide the UI panel
-        uiPanel.SetActive(false);
+        //uiPanel.SetActive(false);
     }
 
 
